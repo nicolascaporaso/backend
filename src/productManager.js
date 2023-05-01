@@ -103,14 +103,15 @@ class ProductManager {
     }
 }
 
+export default ProductManager;
 
 // ------------------------------------------------------testing------------------------------------------------------------------------------------
-const productos = new ProductManager("productos.json");
-console.log(await productos.getProducts());
+//const productos = new ProductManager("productos.json");
+//console.log(await productos.getProducts());
 //productos.addProduct("gorra","gorra nike","200","c:/gorra.jpg","abc1344","100"); 
 //productos.addProduct("gorra","gorra nike","200","c:/gorra.jpg","abc1297","100"); 
 //productos.addProduct("gorra","gorra nike","200","c:/gorra.jpg","abc125","100"); 
 //console.log(await productos.getProducts());
 //productos.deleteProduct(1);
 //console.log(await productos.getProductById(2));
-//productos.updateProduct(2, {name: 'cac44a', price: 1099, stock: 56, code: 8787});
+//productos.updateProduct(2, {name: 'cac44a', price: 1099, stock: 56, code: 8787});no
