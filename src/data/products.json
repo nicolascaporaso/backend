@@ -1,48 +1,21 @@
 [
   {
-    "title": "gorra",
-    "description": "gorra nike",
-    "price": 3500,
-    "image": "c:/gorra.jpg",
-    "code": 87875,
-    "stock": 10,
-    "id": 1
-  },
-  {
-    "title": "campera frisada",
-    "description": "campera adidas black",
-    "price": "20688",
-    "image": "c:/campera.jpg",
-    "code": "12365",
-    "stock": "100",
-    "id": 2
-  },
-  {
-    "title": "jeans",
-    "description": "jeans apolo",
-    "price": "19900",
-    "image": "c:/jeans.jpg",
-    "code": "68741",
-    "stock": "15",
-    "id": 3
-  },
-  {
     "title": "cinturon cuero",
     "description": "cinturon leather king",
     "price": "20000",
     "image": "c:/cinturon.jpg",
     "code": "10971",
     "stock": "100",
-    "id": 4
+    "id": "4"
   },
   {
-    "title": "chaleco",
-    "description": "chaleco kappa",
-    "price": "12990",
-    "image": "c:/chaleco.jpg",
-    "code": "63886",
-    "stock": "8",
-    "id": 5
+    "title": "remera",
+    "description": "remera lisa nike",
+    "price": "40000",
+    "image": "c:/remera.jpg",
+    "code": "188882121",
+    "stock": "101",
+    "id": "5"
   },
   {
     "title": "camisa",
@@ -51,7 +24,7 @@
     "image": "c:/camisa.jpg",
     "code": "99981",
     "stock": "30",
-    "id": 6
+    "id": "6"
   },
   {
     "title": "buzo",
@@ -60,16 +33,16 @@
     "image": "c:/buzo.jpg",
     "code": "77914",
     "stock": "16",
-    "id": 7
+    "id": "7"
   },
   {
-    "title": "sweter",
-    "description": "sweter mistral",
-    "price": "18900",
-    "image": "c:/sweter.jpg",
-    "code": "74344",
-    "stock": "8",
-    "id": 8
+    "title": "jeans",
+    "description": "jean nike",
+    "price": "27800",
+    "image": "c:/jean.jpg",
+    "code": "1234",
+    "stock": "100",
+    "id": "8"
   },
   {
     "title": "jeans",
@@ -78,7 +51,7 @@
     "image": "c:/jean.jpg",
     "code": "12471",
     "stock": "100",
-    "id": 9
+    "id": "9"
   },
   {
     "title": "zapatos",
@@ -87,7 +60,7 @@
     "image": "c:/zapatos.jpg",
     "code": "12421",
     "stock": "10",
-    "id": 10
+    "id": "10"
   },
   {
     "title": "remera",
@@ -96,6 +69,19 @@
     "image": "c:/remera.jpg",
     "code": "12121",
     "stock": "101",
-    "id": 11
+    "id": "11"
+  },
+  {
+    "id": "89920903384",
+    "title": "Shorts samurai",
+    "description": "pantalones cortos estilo nippon",
+    "code": "xrn-jpn-003",
+    "thumbnails": [
+      "c:/1234.jpg",
+      "c:/12345.jpg"
+    ],
+    "price": 1499,
+    "stock": 20,
+    "status": "true"
   }
 ]
