@@ -1,5 +1,7 @@
 import { Router } from "express";
 import ProductManager from "../managers/productManager.js";
+import { uploader } from "../utils.js";
+
 
 const myManager = new ProductManager('./src/data/products.json');
 export const pdctRouter = Router()
@@ -35,8 +37,10 @@ pdctRouter.get("/:pid", async (req, res) => {
     }
 });
 
-pdctRouter.post("/", async (req, res) => {
+pdctRouter.post("/", uploader.single('thumbnails'), async (req, res) => {
     const newProduct = req.body;
+    newProduct.thumbnails ="http://localhost:8080/" + req.file.filename;
+    console.log(newProduct);
     try {
         const product = await myManager.addProduct(newProduct);
         return res.status(201).json(product);

@@ -31,6 +31,8 @@ class ProductManager {
         } else {
             product = { id: (Math.random() * 100000000000).toFixed(0), ...product };
             product.status = 'true'
+            product.price = parseInt(product.price);
+            product.stock = parseInt(product.stock);
             products.push(product);
             const productString = JSON.stringify(products, null, 2)
             await fs.writeFile(this.path, productString);
